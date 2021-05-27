@@ -1,0 +1,93 @@
+body{
+    background-color:rgb(252, 214, 167);
+}
+#main-container{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-top: 100px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#header-img{
+    align-self: flex-start;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-basis: 70%;
+    align-self: flex-end;
+    font-size: large;
+}
+a:link{
+    color:burlywood;
+}
+a:visited{
+    color:burlywood;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    gap: 10px;
+}
+#slogan{
+    align-self: center;
+}
+fieldset{
+    border-color: black;
+
+}
+#form{
+    align-self: center;
+}
+#submit{
+    color:black;
+    background-color: rgb(255, 222, 75);
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-style: oblique;  
+    border-color: black;  
+}
+#features{
+    background-color:rgb(214, 105, 65);
+    border-style: ridge;
+    border-color: black;
+    padding: 10px;
+}
+#products{
+    display: flex;
+    padding: 10px;
+    gap: 8px;
+}
+#p1{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 8px;
+}
+#p2{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 8px;
+}
+#p3{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 8px;
+}
